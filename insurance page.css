@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}  
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Karla", sans-serif;
+}
+main{
+  display: block;
+}
+section,article, header,h1,h2{
+  display: block;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "DM Serif Display", serif;
+} 
+.padding {
+  padding: 80px 0;
+}
+.heading {
+  font-size: 48px;
+  color: #2d2640;
+}     
+.header{
+  padding: 16px 0;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 1px 2px rbga (0,0,0,0.1);
+}
+.brand{
+  font-size: 36px;
+  font-family: "DM serif Display" serif;
+  color: #2d2640;
+}
+a{
+  text-decoration: none;
+}
+.nav a{
+  font-size: 20px;
+  margin-left: 3px;
+  color: #6e6b74;
+  text-transform: uppercase;
+  font-weight:700 ;
+}
+.nav a:hover{
+   color: 2C2641;
+}
+.nav a .btn:hover{
+  color: #ffffff;
+}
+.container{
+  max-width: 1200px;
+  margin: 0;
+  padding: 0 32px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav,div,article, img{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;  
+  font: inherit;
+  vertical-align: baseline;
+}  
+.btn{
+  padding: 12px 18px;
+  border: 1px solid #6e6b74;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn:hover{
+  background-color: #2C2641;
+  color: #ffffff;
+} 
+.hero{
+  background-color: #2d2640;
+  padding: 60px 0;
+  color: #ffffff;
+  margin-top: 88px;
+}
+.line{
+  width: 200px;
+  height: 2px;
+  background-color: #bcb8c4;
+}  
+.hero-heading{
+  font-size: 56px;
+  margin-top: 16px;
+  line-height: 1.1;
+}
+.hero-text{
+  color: #bcb8c4;
+  margin: 32px 0;
+  font-size: 18px;
+}
+.align-start{
+  align-items: flex-start;
+}
+.col-1-2{
+  flex: 0 1 45%;
+}
+.hero-img{
+  margin-bottom: -160px;
+}
+.img-100{
+  width: 100%;
+}
+.secondory-btn{
+  border-color: #ffffff;
+  color: #ffffff;
+  text-transform: uppercase;
+}  
+.about{
+  margin-top: 80px;
+}
+.about p{
+  font-size: 20px ;
+  color: 6e6b74;
+  margin: 24px 0;
+}
